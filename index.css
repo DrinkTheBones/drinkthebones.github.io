@@ -111,26 +111,26 @@ img.bg {
 }
 	
 .cb-slideshow li:nth-child(1) span { 
-    background-image: url(reading.jpg) 
+    background-image: url(./images/homepage/reading.jpg) 
 }
 .cb-slideshow li:nth-child(2) span { 
-    background-image: url(desert.jpg);
+    background-image: url(./images/homepage/desert.jpg);
     animation-delay: 6s; 
 }
 .cb-slideshow li:nth-child(3) span { 
-    background-image: url(zombie.jpg);
+    background-image: url(./images/homepage/southwest.jpg);
     animation-delay: 12s; 
 }
 .cb-slideshow li:nth-child(4) span { 
-    background-image: url(busstop.jpg);
+    background-image: url(./images/homepage/busstop.jpg);
     animation-delay: 18s; 
 }
 .cb-slideshow li:nth-child(5) span { 
-    background-image: url(cgmc.jpg);
+    background-image: url(./images/homepage/cgmc.jpg);
     animation-delay: 24s; 
 }
 .cb-slideshow li:nth-child(6) span { 
-    background-image: url(zombie.jpg);
+    background-image: url(./images/homepage/zombie.jpg);
     animation-delay: 30s; 
 }
 
