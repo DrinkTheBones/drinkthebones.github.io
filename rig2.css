@@ -1,0 +1,71 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#pagetitle{
+	font-size:14px;
+	display:block;
+	letter-spacing:2px;
+	font-family: 'Trebuchet MS', 'Myriad Pro', Arial, sans-serif;
+	color:#000;
+	line-height:14px;
+	padding-top:30px;
+	text-shadow:none;
+	text-transform:uppercase;
+	float:center;
+	text-align:center;
+}
+
+
+#rig {
+    width:95%;
+    margin:0 auto; /*center aligned*/
+    padding:0px;
+    font-size:10; /* Remember to change it back to normal font size if have captions */
+    list-style:none;
+    background-color:#fff;
+	text-align:center;
+	font-family: 'Open Sans';
+	font-size:10px;
+}
+#rig li {
+    display: inline-block;
+    *display:inline;/*for IE6 - IE7*/
+    width:100%;
+    vertical-align:middle;
+    box-sizing:border-box;
+    margin:0;
+    padding:10px;
+}
+        
+/* The wrapper for each item */
+.rig-cell {
+    /*margin:12px;
+    box-shadow:0 0 6px rgba(0,0,0,0.3);*/
+    display:block;
+    position: relative;
+    overflow:hidden;
+}
+        
+/* If have the image layer */
+.rig-img {
+    display:block;
+    width: 100%;
+	max-width: 700px;
+    height: auto;
+    border:none;
+    margin:auto;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 700px) {
+    #rig li {
+        width:100%;
+		padding:10px 0px 0px 0px;
+    }
+}
