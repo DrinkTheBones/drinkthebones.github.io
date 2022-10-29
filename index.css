@@ -134,6 +134,9 @@ img.bg {
     animation-delay: 30s; 
 }
 
+.cb-slideshow li:nth-child(1) div { 
+    animation-delay: 0s; 
+}
 .cb-slideshow li:nth-child(2) div { 
     animation-delay: 6s; 
 }
