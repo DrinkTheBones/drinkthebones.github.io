@@ -111,7 +111,7 @@ img.bg {
 }
 	
 .cb-slideshow li:nth-child(1) span { 
-    background-image: url(./images/homepage/reading.jpg) 
+    background-image: url(./images/homepage/reading.jpg);
 }
 .cb-slideshow li:nth-child(2) span { 
     background-image: url(./images/homepage/desert.jpg);
